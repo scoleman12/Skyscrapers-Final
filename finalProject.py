@@ -1,3 +1,15 @@
+"""
+Name: Sarah Coleman
+CS602: SN1
+Data: Skyscrapers
+URL: Link to your web application online (see extra credit)
+Description:
+This program uses the skyscraper data to show maps and tables that show off different information about skyscrapers.
+There are multiple maps that are filtered by city or height, and a map showing the elevation of each skyscraper.
+Finally there is a table that shows information about the construction of a skyscraper based on information selected,
+along with a pie chart showcasing the percentage of materials used for the skyscrapers
+"""
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -203,3 +215,10 @@ def main():
 
 
 main()
+
+# """
+# References
+# https://deckgl.readthedocs.io/en/latest/gallery/grid_layer.html
+# https://deck.gl/docs/api-reference/aggregation-layers/grid-layer
+# https://www.geeksforgeeks.org/10-interesting-modules-in-python-to-play-with/
+# """
